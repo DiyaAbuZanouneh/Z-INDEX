@@ -242,3 +242,127 @@ h2 {
   left: 60px;
   z-index: 1;
 }
+
+/* 7) Online FoodShop website */
+.food-shop {
+  border: 1px solid #ddd;
+}
+.food-shop__brand {
+  text-align: center;
+  font-family: "Courier New", monospace;
+  font-size: 22px;
+  font-weight: bold;
+  color: #d62828;
+  padding-top: 10px;
+}
+.food-shop__brand span {
+  display: block;
+  font-size: 12px;
+  color: #333;
+  font-weight: normal;
+}
+
+.food-shop__nav {
+  background: #6b6b6b;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+.food-shop__nav-icon {
+  background: white;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+.food-shop__nav nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 13px;
+}
+
+.food-shop__hero {
+  position: relative;
+  background: #d8d3f2;
+  text-align: center;
+  padding: 40px 20px 60px;
+}
+.food-shop__hero h3 {
+  color: #333;
+  margin-bottom: 8px;
+}
+.food-shop__order-btn {
+  background: #ffd400;
+  border: none;
+  padding: 6px 14px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.food-shop__hero-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.food-shop__hero-card {
+  position: relative;
+  width: 160px;
+  height: 100px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+.food-shop__badge {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #ffd400;
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+
+.food-shop__section-title {
+  text-align: center;
+  color: #d62828;
+  font-family: "Courier New", monospace;
+  margin: 20px 0 10px;
+}
+.food-shop__products {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.food-shop__product {
+  position: relative;
+  width: 260px;
+}
+.food-shop__product img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  display: block;
+  border-radius: 4px;
+}
+.food-shop__badge--product {
+  bottom: 8px;
+  left: 8px;
+  transform: none;
+}
+
+.food-shop__footer {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  padding: 10px;
+}
