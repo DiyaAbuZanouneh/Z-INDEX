@@ -178,4 +178,32 @@ h2 {
     32px 32px 0 0 #2a9d8f;
 }
 
-
+/* 5) Six border styles */
+.border-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+}
+.border-list__item {
+  padding: 10px;
+  font-size: 14px;
+}
+.border-list__item--solid {
+  border: 2px solid #333;
+}
+.border-list__item--dashed {
+  border: 2px dashed #333;
+}
+.border-list__item--dotted {
+  border: 2px dotted #333;
+}
+.border-list__item--double {
+  border: 4px double #333;
+}
+.border-list__item--groove {
+  border: 4px groove #6bcb77;
+}
+.border-list__item--ridge {
+  border: 4px ridge #4aa3ec;
+}
