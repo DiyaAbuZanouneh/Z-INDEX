@@ -60,5 +60,24 @@ h2 {
   font-weight: bold;
 }
 
+/* 2) Position absolute - 4 corners */
+.corner-box {
+  position: relative;
+  height: 400px;
+}
+.corner-box__item {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  padding: 6px;
+  color: #222;
+  font-size: 13px;
+}
+.corner-box__item--top-left     { top: 0;    left: 0;    background: #e0365f; color: white; }
+.corner-box__item--top-right    { top: 0;    right: 0;   background: #4aa3c9; color: white; }
+.corner-box__item--bottom-left  { bottom: 0; left: 0;    background: #a4d65e; }
+.corner-box__item--bottom-right { bottom: 0; right: 0;   background: #e6d84b; }
+
+
 
 
