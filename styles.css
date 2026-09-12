@@ -207,3 +207,38 @@ h2 {
 .border-list__item--ridge {
   border: 4px ridge #4aa3ec;
 }
+
+/* 6) Layered images */
+.image-stack {
+  position: relative;
+  height: 220px;
+  margin-top: 20px;
+}
+.image-stack__img {
+  position: absolute;
+  width: 260px;
+  height: 170px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.image-stack__img--1 {
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+.image-stack__img--2 {
+  top: 15px;
+  left: 20px;
+  z-index: 3;
+}
+.image-stack__img--3 {
+  top: 30px;
+  left: 40px;
+  z-index: 2;
+}
+.image-stack__img--4 {
+  top: 45px;
+  left: 60px;
+  z-index: 1;
+}
