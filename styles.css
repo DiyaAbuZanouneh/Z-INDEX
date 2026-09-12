@@ -1,0 +1,64 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+  color: #222;
+}
+
+section {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+h2 {
+  color: #ff7900;
+  border-bottom: 2px solid #ff7900;
+  padding-bottom: 8px;
+}
+
+/* 1) Relative / Fixed (z-index) / Absolute */
+.position-basics {
+  position: relative;
+  border: 1px solid #000;
+  height: 160px;
+  margin-top: 50px;
+}
+.position-basics__relative {
+  position: relative;
+  top: 10px;
+  left: 15px;
+  width: 160px;
+  padding: 10px;
+  background: #ffe0e0;
+  border: 1px solid #000;
+}
+.position-basics__absolute {
+  position: absolute;
+  top: 0;
+  left: 190px;
+  width: 320px;
+  height: 90px;
+  padding: 10px;
+  background: #8ee08e;
+}
+.position-basics__fixed {
+  position: fixed;
+  z-index: 10;
+  bottom: 20px;
+  left: 20px;
+  width: 500px;
+  padding: 12px;
+  background: blue;
+  color: white;
+  font-weight: bold;
+}
+
+
+
